@@ -25,7 +25,7 @@ An implementation of **Contraction Hierarchies** designed to handle **dynamic ed
 
 ## Performance & Visualization
 
-The implementation was tested on the road network of **Monaco** (West: Fontvieille (Stadium area) to East: Saint-Roman / Country Club border). Below are the results comparing the Contraction Hierarchy (CH) against standard Dijkstra search across three network states: **Initial**, **Traffic Jam**, and **Restored**.
+The implementation was tested on the road network of **Monaco** [West: Fontvieille (Stadium area) to East: Saint-Roman / Country Club border](https://www.google.com/maps/dir/Fontvieille,+98000+Monaco/Monte-Carlo+Country+Club,+Avenue+Princesse+Gr%C3%A2ce,+Roquebrune-Cap-Martin,+France/@43.7386347,7.410552,14.31z/data=!4m14!4m13!1m5!1m1!1s0x12cdc2ed54502763:0xd7a43d4a82ddaa!2m2!1d7.417857!2d43.7281385!1m5!1m1!1s0x12cde9d858c078cb:0xc4e059f16444dad7!2m2!1d7.4407329!2d43.7516314!3e0?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D). Below are the results comparing the Contraction Hierarchy (CH) against standard Dijkstra search across three network states: **Initial**, **Traffic Jam**, and **Restored**.
 
 ### 1. Route Adaptation
 The system correctly reroutes around traffic jams and restores the optimal path once traffic clears.
